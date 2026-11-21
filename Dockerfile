@@ -6,7 +6,7 @@ COPY pyproject.toml uv.lock ./
 RUN uv export --frozen --no-dev --no-emit-project -o requirements.txt
 
 # Stage 2: Build stage
-FROM python:3.13-slim AS builder
+FROM python:3.15-slim AS builder
 WORKDIR /swi
 COPY --from=uv /swi/requirements.txt .
 RUN pip install --no-cache-dir --require-hashes -r requirements.txt
