@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.2.0](https://github.com/svalbard-watch/swi-aromearctic-caching/compare/0.1.0...0.2.0) (2026-11-21)
+
+
+### Features
+
+* **docker:** build on swi-cron-base ([336211b](https://github.com/svalbard-watch/swi-aromearctic-caching/commit/336211bd29524a8cb975e4e27be677640686873c))
+* **docker:** build on swi-cron-base ([0ae28bf](https://github.com/svalbard-watch/swi-aromearctic-caching/commit/0ae28bff329f3e1ac93a2a153ddbfe6925800d78))
+
+
+### Bug Fixes
+
+* **deps:** upgrade certifi and pillow ([9608efc](https://github.com/svalbard-watch/swi-aromearctic-caching/commit/9608efc73f10318762645902a4c9983a2b2000a9))
+* **docker:** remove pip again after copying the builder's packages ([1b7ce47](https://github.com/svalbard-watch/swi-aromearctic-caching/commit/1b7ce47734550e8c5a79dd4babc9deabfbe5aa92))
+
 ## [0.1.0](https://github.com/UNIS-Svalbard-Weather-Information/swi-aromearctic-caching/compare/0.0.9...0.1.0) (2026-10-12)
 
 
